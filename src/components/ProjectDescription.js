@@ -2,9 +2,9 @@ import React from "react";
 
 function ProjectDescription() {
   return (
-    <p>
+    <Description data-ns-test = "description">
       this is the ProjectDescription
-    </p>
+    </Description>
   )
 }
 export default ProjectDescription;

@@ -2,9 +2,9 @@ import React from "react";
 
 function ProjectName() {
   return (
-    <p>
+    <Name data-ns-test = "name">
       this is the ProjectName
-    </p>
+    </Name>
   )
 }
 export default ProjectName;

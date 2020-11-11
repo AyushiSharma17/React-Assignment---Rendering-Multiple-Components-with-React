@@ -1,13 +1,11 @@
 import React, {Component, useState} from "react";
 import '../styles/App.css';
-import ProjectName from './ProjectName';
-import ProjectDescription from './ProjectDescription';
 
 const App = () => {
   return (
     <div>
-    <ProjectName />
-    <ProjectDescription />
+    <h1 data-ns-test = "project-name">My Project </h1>
+    <h1 data-ns-test = "project-description">My description </h1>
     </div>
   )
 }
